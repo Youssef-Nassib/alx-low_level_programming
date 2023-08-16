@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
-* print_last_digit - fucntion to print the last digit of a number
-* @i: function parameter
-* Return: k
-*/
+ * print_last_digit - function print the last digit
+ * @i: function parametter
+ * Return:k
+ */
 int print_last_digit(int i)
 {
 	int k;
 
-	k = i & 10;
+	k = i % 10;
 	if (i < 10)
 		k = -k;
 	_putchar(k + '0');
