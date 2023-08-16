@@ -2,7 +2,7 @@
 
 
 	/**
-	 * main - fibonacci <3
+	 * main - main function  fibonacci <3
 	 *
 	 * Purpose - no hardcode
 	 *
