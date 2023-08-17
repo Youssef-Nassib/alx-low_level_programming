@@ -1,8 +1,15 @@
 #include "main.h"
 
+/**
+ * print_line - function print line
+ *
+ * Return: always succed
+ *
+ * @n: function parameter
+ */
+
 void print_line(int n)
 {
-	
 	if (n <= 0)
 		_putchar('\n');
 	else
