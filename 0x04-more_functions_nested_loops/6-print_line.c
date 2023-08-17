@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_line - function print line
- *
- * Return: always succed
- *
- * @n: function parameter
+ * print_line - function print line with _
+ * @n: numbers of times the charachter
+ * Return: void
  */
 
 void print_line(int n)
@@ -16,7 +14,7 @@ void print_line(int n)
 	{
 		int i;
 
-		for (i = 0 ; i <= n ; i++)
+		for (i = 1 ; i <= n ; i++)
 			_putchar('_');
 	_putchar('\n');
 	}
