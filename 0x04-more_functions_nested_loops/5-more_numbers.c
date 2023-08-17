@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * more_numbers - print 10times numbers
+ * more_numbers - print 10times
  *
-
+ * Return: always succesd
  */
 void more_numbers(void)
 {
